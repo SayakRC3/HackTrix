@@ -3,6 +3,10 @@
 # Project Overview
 Wearable sensors with Human Activity Recognition revolutionize medical diagnostics, monitoring patient movements in real-time for early anomaly detection and personalized interventions. This improves outcomes and cuts healthcare costs. Thus we introduce our device - "Monitwatch," a compact wearable device that integrates various sensors like heart rate, SpO2, EEG, and motion sensors. It measures crucial health metrics such as SpO2 levels, heart rate, temperature, and patient movement data. It also features a lightweight "vest" with integrated detection probe interfaces  monitors cardiovascular and muscular activity using ECG, EOG, and EEG probes. Small probes detect abnormalities, including those leading to heart attacks, while gyroscope sensors accurately detect mobility accidents such as falls. Encoded results from sensors are processed by an autoencoder model while patient motion tracking data is monitored and analyzed using an RNN-based LSTM model for comprehensive health insights. Predictions are decoded and compared to actual outcomes, generating alerts if discrepancies exceed a set threshold. Alerts promptly notify patients of abnormalities, enabling timely intervention and treatment.
 
+<img src = 'https://github.com/SayakRC3/HackTrix/assets/137310893/9d0d9884-e0e7-428b-af6e-b3c4dfbc8d3d' height = 300/>
+<img src = 'https://github.com/SayakRC3/HackTrix/assets/137310893/280535e6-81e1-485d-838f-7b52315c556f' height = 200/>
+
+
 # Tech Stack //sensors used, Processors used, Model Used 
 __Sensors Used__
 1. MAX 30102 Pulse Oximeter and Heart rate sensor (SpO2 and heart rate) Sensor: Measures oxygen levels in the bloodstream and our heartrate, offering valuable insights into cardiovascular health and oxygenation status
@@ -35,4 +39,6 @@ Libraries Used:
 - TensorFlow/Keras: For building and training neural network models.
 - Scikit-learn: For splitting the dataset into training and testing sets.
 - Matplotlib: For data visualization.
+
+  
 
