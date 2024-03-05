@@ -50,6 +50,8 @@ model.add(Dense(units=6, activation='softmax'))
 model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
+# This code defines a sequential model with an LSTM layer followed by a Dense layer with softmax activation. The LSTM layer is designed to capture temporal dependencies in the input data, while the Dense layer with softmax activation outputs probabilities for each of the 6 classes, allowing the model to perform multi-class classification.
+
 # Train the model
 history = model.fit(X_train, y_train, epochs=20, batch_size=32,
                     validation_data=(X_test, y_test), verbose=1)
