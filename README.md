@@ -40,5 +40,8 @@ Libraries Used:
 - Scikit-learn: For splitting the dataset into training and testing sets.
 - Matplotlib: For data visualization.
 
-  
+#Circuit Diagram and Experimental Setup
+
+![Circuit_Diagram](https://github.com/SayakRC3/HackTrix/assets/137310893/45d40255-fe31-4011-8d16-bfe526c1215e)
+![ECG_Biopill_Circuit](https://github.com/SayakRC3/HackTrix/assets/137310893/8e9943ce-4e1b-4e67-bca9-94aaad7aa18f)
 
