@@ -11,6 +11,11 @@ __Sensors Used__
 3. Accelerometer and Gyroscope Sensor MPU6050: Measures acceleration in three dimensions (X, Y, and Z) and angular velocity in three axes and provide information about rotational movements.
 4. BioAmp EXE pill: 
 
+<img src='https://github.com/SayakRC3/HackTrix/assets/137310893/3c9feacf-e12c-417e-baef-db64319357e5' height=250/>
+<img src='https://github.com/SayakRC3/HackTrix/assets/137310893/3c9feacf-e12c-417e-baef-db64319357e5' height=250/>
+<img src='https://github.com/SayakRC3/HackTrix/assets/137310893/3c9feacf-e12c-417e-baef-db64319357e5' height=250/>
+
+
 __Microprocessors and Microcontrollers__
 1. Raspberry Pi 4B:Data collection and feeding into the ML model are managed by the Raspberry Pi 4 B, a versatile and affordable single-board computer renowned for its computational capabilities and broad range of applications.
 2. ESP32-WROOM:The ESP32 connects wirelessly to any of the Cloud platform. This cloud platform provides a user-friendly interface for managing and storing sensor data. The ESP32 sends the collected data (heart rate, SpO2, accelerometer, and gyroscope readings) to the Cloud on a regular basis. This makes the data easily available for analysis and anomaly identification.
@@ -19,5 +24,3 @@ __Modules and Development Boards__
 1. 
 __ML Model__
 Autoencoder architecture for ECG anomaly detection
-
-<iframe src="https://www.kaggle.com/embed/ohseokkim/dectecting-anomaly-using-autoencoder?cellIds=25&kernelSessionId=87181418" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Dectecting Anomaly using Autoencoder!"></iframe>
