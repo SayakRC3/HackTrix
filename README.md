@@ -6,4 +6,14 @@ Wearable sensors with Human Activity Recognition revolutionize medical diagnosti
 
 # Tech Stack //sensors used, Processors used, Model Used 
 __Sensors Used__
-1. Gyro+
+1. MAX 30102 Pulse Oximeter and Heart rate sensor (SpO2 and heart rate) Sensor: Measures oxygen levels in the bloodstream and our heartrate, offering valuable insights into cardiovascular health and oxygenation status
+2. Motion Sensors: These sensors monitor our body's movements.
+3. Accelerometer and Gyroscope Sensor MPU6050: Measures acceleration in three dimensions (X, Y, and Z) and angular velocity in three axes and provide information about rotational movements.
+4. BioAmp EXE pill: 
+
+__Microprocessors and Microcontrollers__
+1. Raspberry Pi 4B:Data collection and feeding into the ML model are managed by the Raspberry Pi 4 B, a versatile and affordable single-board computer renowned for its computational capabilities and broad range of applications.
+2. ESP32-WROOM:The ESP32 connects wirelessly to any of the Cloud platform. This cloud platform provides a user-friendly interface for managing and storing sensor data. The ESP32 sends the collected data (heart rate, SpO2, accelerometer, and gyroscope readings) to the Cloud on a regular basis. This makes the data easily available for analysis and anomaly identification.
+
+__Modules and Development Boards__
+1. 
