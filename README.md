@@ -17,3 +17,7 @@ __Microprocessors and Microcontrollers__
 
 __Modules and Development Boards__
 1. 
+__ML Model__
+Autoencoder architecture for ECG anomaly detection
+
+<iframe src="https://www.kaggle.com/embed/ohseokkim/dectecting-anomaly-using-autoencoder?cellIds=25&kernelSessionId=87181418" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Dectecting Anomaly using Autoencoder!"></iframe>
